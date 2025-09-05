@@ -1,3 +1,9 @@
 # Columnas flex
-**Autor:** yuliethgonzalez@liceovvh.cl
-Yulieth Gonzalez
+
+## Resultado ![alt text](<resources/resultado final.png>)
+
+
+
+**Autor/a:** Yulieth Gonzalez
+
+**Contacto:** yuliethgonzalez@liceovvh.cl

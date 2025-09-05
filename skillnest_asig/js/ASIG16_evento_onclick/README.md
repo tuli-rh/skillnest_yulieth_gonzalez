@@ -1,3 +1,9 @@
-# Evento onclick
-**Autor:** yuliethgonzalez@liceovvh.cl
-Yulieth Gonzalez
+# Evento Onclick
+
+## Resultado ![alt text](<resources/resultado final.png>)
+
+
+
+**Autor/a:** Yulieth Gonzalez
+
+**Contacto:** yuliethgonzalez@liceovvh.cl

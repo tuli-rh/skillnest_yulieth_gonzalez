@@ -1,3 +1,9 @@
-# Tiempo Local
-**Autor:** Yulieth Gonzalez
+# Tiempo local
+
+## Resultado ![alt text](<resources/resultado final.png>)
+
+
+
+**Autor/a:** Yulieth Gonzalez
+
 **Contacto:** yuliethgonzalez@liceovvh.cl

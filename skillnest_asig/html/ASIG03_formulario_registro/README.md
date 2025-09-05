@@ -1,3 +1,9 @@
-# Formularia de registro
-**autor:** yuliethgonzalez@liceovvh.cl
-Yulieth Gonzalez
+# Formulario de registro
+
+## Resultado ![alt text](resources/resultado.png)
+
+
+
+**Autor/a:** Yulieth Gonzalez
+
+**Contacto:** yuliethgonzalez@liceovvh.cl

@@ -1,3 +1,9 @@
-# Social like
-**Autor:** yuliethgonzalez@liceovvh.cl
-Yulieth Gonzalez
+# Social Like
+
+## Resultado ![alt text](<resources/resultado final.png>)
+
+
+
+**Autor/a:** Yulieth Gonzalez
+
+**Contacto:** yuliethgonzalez@liceovvh.cl
