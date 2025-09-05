@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- autor del documento -->
+    <meta name="author" content="yuliethgonzalez@liceovvh.cl">
+    <!-- titulo de la pestaña -->
+    <title>TacoPalace</title>
+    <!-- estilos css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- logo TacoPalace -->
+            <div class="taco">
+                <img src="static/images/logo.png" alt="Servidor no disponible.">
+                <h1><span class="taquito">Taco</span>Palace</h1>
+            </div>
+            <!-- barra de navegación -->
+            <nav class="navbar">
+                <form action="#">
+                    <input type="email" placeholder="Correo electrónico..." id="correo">
+                    <button type="submit" class="iniciar" onclick="email()">Iniciar sesión</button>
+                </form>
+                <!-- carrito de compras -->
+                <div class="cart">
+                    <img src="static/images/carrito.png" alt="Servidor no disponible.">
+                    <span id="cart">0</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- contenedor -->
+    <div class="container">
+        <!-- fila 1 -->
+        <div class="row">
+            <!-- caja img -->
+            <div class="caja-img">
+                <!-- img-text 1 -->
+                <div class="img-text">
+                    <img src="static/images/enchiladas.jpg" alt="Servidor no disponible.">
+                    <h3>Enchiladas</h3>
+                </div>
+                <!-- img-text 2 -->
+                <div class="img-text">
+                    <img src="static/images/tacos.jpg" alt="Servidor no disponible.">
+                    <h3>Tacos</h3>
+                </div>
+                <!-- img-text 3 -->
+                <div class="img-text">
+                    <img src="static/images/flautas.jpg" alt="Servidor no disponible.">
+                    <h3>Flautas</h3>
+                </div>
+                <!-- img-text 4 -->
+                <div class="img-text">
+                    <img src="static/images/gorditas.jpg" alt="Servidor no disponible.">
+                    <h3>Gorditas</h3>
+                </div>
+                <!-- img-text 5 -->
+                <div class="img-text">
+                    <img src="static/images/tostadas.jpg" alt="Servidor no disponible.">
+                    <h3>Tostadas</h3>
+                </div>
+                <!-- img-text 6 -->
+                <div class="img-text">
+                    <img src="static/images/enfrijoladas.jpg" alt="Servidor no disponible.">
+                    <h3>Enfrijoladas</h3>
+                </div>
+            </div>
+        </div>
+        <!-- fila 2 -->
+        <div class="row-2">
+            <!-- columna 1 -->
+            <div class="col-1">
+                <!-- tarjeta comida mexicana -->
+                <div class="card">
+                    <div class="text-card">
+                        <p class="parrafo">La mejor variedad en platillos de comida <strong>mexicana</strong></p>
+                        <p>Contamos con <a href="#">servicio</a> a <span class="domi">domicilio</span></p>
+                    </div>
+                    <img src="static/images/comida-mexicana-01.jpg" alt="Servidor no disponible." id="img">
+                </div>
+            </div>
+            <!-- columna 2 -->
+            <div class="col-2">
+                <h2>Recomendados</h2>
+                <div class="card-second">
+                    <div>
+                        <img src="static/images/orden-tacos.jpg" alt="Servidor no disponible.">
+                    </div>
+
+                    <div class="taco-taquitos">
+                        <div class="img-tacos">
+                            <p>Orden de tacos</p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botoncito" onclick="carritoCompras()">+</button>
+                    </div>
+                </div>
+                <div class="card-second">
+                    <div>
+                        <img src="static/images/orden-flautas.jpg" alt="Servidor no disponible.">
+                    </div>
+
+                    <div class="taco-taquitos">
+                        <div class="img-tacos">
+                            <p>Orden de flautas</p>
+                            <a href="#">Ver más...</a>
+                        </div>
+                        <button class="botoncito" onclick="carritoCompras()">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

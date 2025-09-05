@@ -1,0 +1,153 @@
+/* resetear css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* googele font */
+body {
+    font-family: "Nata Sans", sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+/* barra de navegación 1 */
+
+.barra-navegacion1 {
+    background-color: #e8c39e;
+    margin-bottom: 200px;
+}
+
+.nav-contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-contenedor h1 {
+    color: #816950;
+}
+
+.titulo {
+    color: #524333;
+}
+
+.texto-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.texto-nav a {
+    text-decoration: none;
+    color: #816950;
+}
+
+.boton-barra1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #b08e6b;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* barra de navegación 2 */
+
+.barra-navegacion2 {
+    background-color: #64747b;
+    margin-bottom: 200px;
+}
+
+.nav2-contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.texto-nav2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.texto-nav2 a {
+    text-decoration: none;
+    color: #e2dcd0;
+}
+
+.boton-barra2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #a3aca9;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.nav2-contenedor h1 {
+    color: #e2dcd0;
+}
+
+.titulo2 {
+    color: #bdbba5;
+}
+
+/* barra de navegación 3 */
+
+.barra-navegacion3 {
+    background-color: #b3b792;
+}
+
+.nav3-contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.nav3-contenedor h1 {
+    color: #725c3a;
+}
+
+.titulo3 {
+    color: rgb(150, 124, 96);
+}
+
+.texto-nav3 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.texto-nav3 a {
+    text-decoration: none;
+    color: #725c3a;
+}
+
+.boton-barra3 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #725c3a;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}

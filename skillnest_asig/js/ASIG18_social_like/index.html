@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- autor del documento -->
+    <meta name="author" content="yuliethgonzalez@liceovvh.cl">
+    <!-- titulo de la pestaña -->
+    <title>Social Like</title>
+    <!-- estilos css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="nav-bar">
+        <h1>Social Like</h1>
+    </nav>
+
+    <!-- contenedor -->
+    <div class="container">
+        <!-- titulo -->
+        <h2>Últimas publicaciones</h2>
+
+        <!-- row (fila) -->
+        <div class="row">
+            <!-- columna 1 -->
+            <div class="col-1">
+                <div class="card-profile">
+                    <img src="static/images/misato.jpg" alt="Servidor no disponible">
+                    <h3>Misato</h3>
+                    <button id="" >Mi perfil</button>
+                </div>
+            </div>
+
+            <!-- columna2 -->
+            <div class="col-2">
+                <div class="card-post">
+                    <div class="card-content">
+                        <h3>Rei</h3>
+                        <p>
+                            Acabo de configurar este nuevo <a href="#">bot de Discord</a>, cuéntenme que opinan ustedes.
+                        </p>
+                    </div>
+
+                    <div class="card-like">
+                        <p><span id="like">0</span> Like(s)</p>
+                        <button onclick="darLike1()">Like</button>
+
+                    </div>
+                </div>
+
+                <div class="card-post">
+                    <div class="card-content">
+                        <h3>Asuka</h3>
+                        <p>
+                            Acabo de leer este <a href="#"> nuevo comic</a>. Dale un vistazo.
+                        </p>
+                    </div>
+
+                    <div class="card-like">
+                        <p><span id="like2">0</span> Like(s)</p>
+                        <button onclick="darLike2()">Like</button>
+
+                    </div>
+                </div>
+
+                <div class="card-post">
+                    <div class="card-content">
+                        <h3>Shinji</h3>
+                        <p>
+                            No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién le gusta más?
+                        </p>
+                    </div>
+
+                    <div class="card-like">
+                        <p><span id="like3">0</span> Like(s)</p>
+                        <button onclick="darLike3()">Like</button>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

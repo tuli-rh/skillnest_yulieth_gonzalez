@@ -1,0 +1,48 @@
+/* resetear estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Boldonse", system-ui;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.boton {
+    display: block;
+    margin: 20px;
+}
+
+.boton-buscar {
+    background-color: #cdcdcd;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+}
+
+.boton-mas {
+    background-color: #f8a504;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.boton-crear {
+    background-color: #29a3f5;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    box-shadow: 3px 3px 3px 2px rgb(0, 0, 0, 0.1);
+}

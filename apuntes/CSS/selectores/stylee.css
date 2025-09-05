@@ -1,0 +1,71 @@
+/* Resetear los estilos por defecto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Boldonse", system-ui; 
+}
+
+p {
+    border: 10px solid #e01818;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+    font-size: 25px;
+}
+
+.texto {
+    color: brown;
+    font-size: 18;
+    text-align: center;
+}
+
+#parrafo3 {
+    color: rgb(50, 172, 135);
+    font-size: 22;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 100px;
+}
+
+.parrafo {
+    /* margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+    margin: 50px;
+    border: 5px dotted rgb(204, 131, 71);
+    text-decoration: underline;
+}
+
+p {
+    border: 10px solid #000;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.ico-instagram {
+    font-size: 30px;
+}
+
+
+
+
+
+
+

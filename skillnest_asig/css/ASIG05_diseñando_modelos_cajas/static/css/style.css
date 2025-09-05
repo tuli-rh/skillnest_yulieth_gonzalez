@@ -1,0 +1,59 @@
+/* Resetear los estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Boldonse", system-ui;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parrafo {
+    text-align: center;
+    margin-top: 20px;
+}
+.link {
+    text-decoration: none;
+}
+
+.cajas {
+    text-align: center;
+    margin: 40px;
+}
+
+.caja {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 140px;
+}
+
+.caja p {
+    color: white;
+   
+}
+.caja-azul {
+    background-color: #008dd2;
+}
+
+.caja-roja { 
+    background-color: #ee433a;
+    margin-left: 20px;
+}
+
+.caja-verde {
+    background-color: #11d479;
+    margin-left: 20px;
+}

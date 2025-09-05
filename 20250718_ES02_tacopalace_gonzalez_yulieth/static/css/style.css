@@ -1,0 +1,147 @@
+/* resetear css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* googele font */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #cdcccd;
+}
+
+.header {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.taco {
+    display: flex;
+    align-items: center;
+}
+
+.taquito {
+    color: #fe9901;
+}
+
+#correo {
+    padding: 5px;
+    border: 1px solid #cdcccd;
+    outline: none;
+}
+
+.iniciar {
+    background-color: #fe9901;
+    border: none;
+    padding: 6px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+input:active {
+    transform: scale(0.95);
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.caja-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #f9ca9d;
+    padding: 20px;
+}
+
+.img-text img {
+    width: 140px;
+}
+
+.img-text h3 {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card {
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #cdcccd;
+}
+
+.parrafo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-card {
+    text-align: center;
+}
+
+.domi {
+    color: #fe9901;
+}
+
+.card img {
+    width: 450px;
+}
+
+.col-2 h2 {
+    margin-bottom: 20px;
+}
+
+.card-second img {
+    width: 280px;
+    height: 120px;
+}
+
+.card-second {
+    border: 1px solid #cdcccd;
+    margin-bottom: 40px;
+}
+
+.taco-taquitos {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoncito {
+    border-radius: 50px;
+    border: none;
+    background-color: #fe9901;
+    width: 35px;
+    padding: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
