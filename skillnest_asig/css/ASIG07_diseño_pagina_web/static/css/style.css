@@ -1,0 +1,98 @@
+/* resetear css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #1e3a5f;
+    text-align: center;
+    height: 110px;
+}
+
+body {
+    background-color: #c9c9c9;
+    text-align: center;
+}
+
+header h1,
+header p {
+    color: #fff;
+    padding-top: 15px;
+}
+
+header p {
+    padding-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 25px;
+
+}
+
+.link {
+    text-align: center;
+    background-color: #004173;
+    height: 30px;
+    padding-top: 5px
+}
+
+.container {
+    background-color: #fff;
+    margin: 30px auto;
+    width: 1230px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.sub-title {
+    background-color: #004173;
+    color: #fff;
+    width: 1180px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 150px;
+    padding: 35px;
+
+}
+
+.sub-title p {
+    padding: 20px;
+}
+
+.ski {
+    display: inline-block;
+    height: 130px;
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 35px;
+    margin-top: 25px;
+}
+
+.ski p {
+    padding-top: 15px;
+}
+
+.academy {
+    background-color: #0cb7f2;
+    
+    width: 360px
+}
+
+.edu {
+    background-color: #0cb7f2;
+    margin-left: 15px;
+    width: 360px
+}
+
+.gov {
+    background-color: #0cb7f2;
+    margin-left: 15px;
+    width: 370px;
+
+}
