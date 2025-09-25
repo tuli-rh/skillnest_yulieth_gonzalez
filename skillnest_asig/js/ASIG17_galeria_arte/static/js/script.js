@@ -2,8 +2,6 @@ function cerrarSesion() {
    const btnSesion = document.querySelector("#btnSesion");
    btnSesion.innerText = "Cerrar sesión"
    console.log("btnSesion");
-
-   
 }
 
 
