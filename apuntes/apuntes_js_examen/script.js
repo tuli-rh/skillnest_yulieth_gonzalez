@@ -18,14 +18,12 @@ imagen.addEventListener("mouseout", function () {
 // cambiar texto 
 
 function cerrarSesion() {
-    const btnSesion = document.getElementById("sesion");
-    btnSesion.addEventListener("click", function () {
-        if (btnSesion.textContent === "Iniciar sesión") {
-            btnSesion.textContent = "Cerrar sesión";
-        } else {
-            btnSesion.textContent = "Iniciar sesión"
-        }
-    });
+    const btnSesion = document.querySelector("#sesion");
+    if (btnSesion.textContent === "Iniciar sesión") {
+        btnSesion.textContent = "Cerrar sesión";
+    } else {
+        btnSesion.textContent = "Iniciar sesión"
+    }
 }
 
 //  mostrar mensaje de alerta 
