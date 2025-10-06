@@ -7,15 +7,17 @@
 
 /* googele font */
 body {
-    font-family: "Flamenco", system-ui;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
     background-color: #F5EBDC;
 }
 
 nav {
+    background-color: #F5EBDC;
     position: fixed;
     top: 0;
     width: 100%;
-
+    border-bottom: 2px solid #e0dede;
 }
 
 .navbar {
@@ -27,8 +29,6 @@ nav {
     width: 95%;
     display: flex;
     flex-direction: column;
-
-
 }
 
 .nav-top {
@@ -38,8 +38,14 @@ nav {
 
 }
 
+.div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
 .icono {
-    width: 45%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,27 +53,48 @@ nav {
 
 .links a {
     color: #000;
-    font-weight: bold;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 15px;
+}
+
+.links i {
+    font-size: 20px;
 }
 
 .links {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 1.3rem;
+    gap: 17px;
 }
 
 .botones {
     display: flex;
     width: 45%;
     justify-content: flex-end;
+    gap: 20px;
+}
+
+.botones button {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.inscripcion {
+    background-color: #D62300;
+    color: #fff;
+}
+
+.shop {
+    color: #fff;
+    background-color: #502314;
 }
 
 .idioma {
     margin: 0 auto;
-    height: 40px;
+    height: 30px;
     width: 95%;
     display: flex;
     align-items: center;
@@ -76,6 +103,102 @@ nav {
     justify-content: end;
 }
 
+.idioma button {
+    border: none;
+    background-color: transparent;
+    color: #9F816F;
+    font-size: 15px;
+}
+
 .logo img {
     width: 125px;
+}
+
+/* Mi BK */
+
+.my-bk {
+    background-color: #502314;
+    padding: 35px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 114px;
+}
+
+.img-bk img {
+    width: 220px;
+}
+
+.img-bk p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.my-bk button {
+    height: 35px;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    font-size: 15px;
+}
+
+.my-bk button i {
+    background-color: #F5EBDC;
+    color: #D62300;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-left: 7px;
+    width: 25px;
+}
+
+/* contenedor */
+
+.container {
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 85%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card {
+    width: 49%;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #502314;
+}
+
+.card-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-card {
+    width: 70%;
+}
+
+.text-card p {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.text-card h2 {
+    font-size: 20px;
 }
