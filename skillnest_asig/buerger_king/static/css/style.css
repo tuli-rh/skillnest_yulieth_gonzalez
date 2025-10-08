@@ -40,11 +40,10 @@ nav {
 .div {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
 }
 
 .icono {
-    width: 55%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,12 +62,12 @@ nav {
 .links {
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 28px;
 }
 
 .botones {
     display: flex;
-    width: 45%;
+    width: 40%;
     justify-content: flex-end;
     gap: 20px;
 }
@@ -177,7 +176,6 @@ main {
 
 .card {
     width: 49%;
-    
     background-color: #fff;
     border-radius: 10px;
     color: #502314;
@@ -225,8 +223,8 @@ section {
     margin-top: 150px;
 }
 
-.download-containe {
-    width: 70%;
+.download-container {
+    width: 65%;
     margin: 0 auto;
     display: flex;
 }
@@ -234,8 +232,15 @@ section {
 .img-download {
     display: flex;
     align-items: flex-end;
+    margin-top: 120px;
 }
 
 .img-download img {
     width: 400px;
 }
+
+.text-section {
+    margin-top: 60px;
+
+}
+
