@@ -42,10 +42,12 @@ nav {
     color: #000;
     text-decoration: none;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .button-nav button {
     border: none; 
     width: 110px;
     height: 30px;
+    cursor: pointer;
 }
