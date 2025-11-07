@@ -132,4 +132,20 @@ header img {
 
 .text-card {
     text-align: left;
+    font-size: 14px;
+}
+
+.text-card p {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.text-card span {
+    color: #C27BA0;
+    font-weight: 600;
+}
+
+footer {
+    height: 40px;
+    background-color: #D5A6BD;
 }
